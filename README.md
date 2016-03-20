@@ -4,4 +4,4 @@ This project is a monitoring system for the monuments. It registers users via Aa
 
 At the monument we have applied facial recognition to identify the person to increase the security of the place. This will be extended to use beacon along with facial recognition inside the monument to track suspicious behaviour.
 
-Project developed at Rastrapati Bhavan ,President House ,India
+Project developed at Rastrapati Bhavan , President House , India
