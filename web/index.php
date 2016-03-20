@@ -46,17 +46,30 @@ $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	  $query = "SELECT * FROM aadhar WHERE aadhar_id='$aadhar'";
       $data = mysqli_query($dbc, $query)or die("error querying");
 	   while($row=mysqli_fetch_array($data)){
-	  /* echo $row['aadhar_id'];
-	   echo $row['name'];
-	   echo $row['dob'];
-	   echo $row['gender'];
-	   echo $row['address'];
-	   echo $row['city'];
-	   echo '<img src="'.'files/' . $row['image'] . '" alt="image" />'; */
 	   ?>
-	   <div>
+	   <div class="col-md-offset-4 col-md-4 col-xs-12 card">
+      <div class="row">
+      <div class="col-md-9">
+      <?php echo '<img src="'.'files/' . $row['image'] . '" alt="image" />';?>
+    </div>
+    <div class="col-md-3">
+      <h6>
 	   <?php echo $row['name']; ?>
+   </h6></br>
+   <h6>
+     <?php echo $row['dob']; ?>
+    </h6></br>
+    <h6>
+     <?php echo $row['gender']; ?>
+    </h6></br>
+     <h6><?php echo $row['address']; ?>
+     </h6></br>
+      <h6><?php echo $row['city']; ?>
+      </h6></br>
+     
+    </div>
 	   </div>
+   </div>
 	   <?php
 	   
 	   }
