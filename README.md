@@ -1,4 +1,4 @@
-# Tech-geeks
+# Monuments Security System
 
 This project is a monitoring system for the monuments. It registers users via Aadhar card or passport or any other government photo id proof. When a user wants to visit any monument, user just selects the monument then registers in a specific time slot and then his/her record is saved in local database of the monument for authentication from government's database.
 
