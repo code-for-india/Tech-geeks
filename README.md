@@ -13,10 +13,14 @@ For Contribution:
 Kindly follow these steps
 
 1. Clone the repository using git clone
-2. Run WAMP or any other similar to run the project.
-
-Documentation
+2. Run WAMP or any other similar server for PHP to run the project.
+3. Use "web" folder for working on web part of the project.
+4. Use "android" folder for working on android part of the project.
 Technologies Used : AngularJS,Php.
-Hosted API's:
+
+ API's:
+
+ All API's code is available in "API" folder inside "web" folder 
+
 
  
